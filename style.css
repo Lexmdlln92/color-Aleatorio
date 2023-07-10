@@ -1,0 +1,61 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to right, #2DC437, #1F2C14, #3989E3);
+    text-align: center;
+}
+
+.centrar-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos del contenedor */
+#contenedor {
+    height: 220px;
+    width: 700px;
+    background-color: rgb(6, 54, 175);
+    color: white;
+    border: 5px solid pink;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/* Estilos del texto */
+#color {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+}
+
+/* Estilos del botón */
+button {
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(47, 2, 72);
+    margin: 15px;
+    padding: 10px 25px;
+    user-select: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: rgb(5, 5, 95);
+}
+
+.texto{
+    margin: 25px;
+    font-size:16px;
+}
+
